@@ -1,18 +1,13 @@
-cat > package.json << 'EOF'
 {
-  "name": "tojibot",
+  "name": "lolibot",
   "version": "1.0.0",
-  "description": "TOJIBOT - Nuevo avance",
-  "type": "module",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "latest",
-    "chalk": "latest",
-    "pino": "latest",
-    "qrcode-terminal": "latest"
+    "@whiskeysockets/baileys": "^7.0.0-rc14",
+    "pino": "^10.3.1"
   }
 }
-EOF
